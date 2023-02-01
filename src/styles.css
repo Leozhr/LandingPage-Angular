@@ -3,7 +3,7 @@
 body, html {
   scroll-behavior: smooth;
   background-color: var(--color-backgroung);
-  font-size: var(--Font-B-Default);
+  font-family: var(--Font-B);
 }
 
 * {
@@ -14,6 +14,7 @@ body, html {
 
 a {
   text-decoration: none;
+  color: var(--color-white-50);
 }
 
 li {
@@ -22,6 +23,11 @@ li {
 
 img {
   image-rendering: optimizeSpeed;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 

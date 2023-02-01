@@ -4,10 +4,10 @@
   --color-white-100: #FFFFFF;
   --color-white-75: #D9D9D9;
   --color-white-50: #FFFFFF80;
-  --color-green-linear: linear-gradient(307.72deg, #A7F306 2.04%, #F3CD06 98.59%);
+  --color-green-linear: -webkit-linear-gradient(307.72deg, #A7F306 2.04%, #F3CD06 98.59%);
   --color-gray-linear: linear-gradient(90.01deg, #FFFFFF 0.01%, rgba(255, 255, 255, 0.3) 49.48%, #FFFFFF 99.99%);
   --color-black-linear: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
   /*FONT*/
   --Font-A: 'Raleway', sans-serif;
-  --Font-B-Default: 'Plus Jakarta Sans', sans-serif;
+  --Font-B: 'Plus Jakarta Sans', sans-serif;
 }
