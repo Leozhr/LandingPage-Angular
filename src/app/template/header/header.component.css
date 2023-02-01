@@ -26,7 +26,7 @@
 }
 
 .nav-list a {
-  padding: 5px 0px;
+  padding: 5px 10px;
 }
 
 .nav-list a:hover {
@@ -46,4 +46,47 @@
   display: inline-block;
   padding: 0px 6px;
   opacity: 0.9;
+}
+
+img {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .header h2 {
+    font-weight: 500;
+    font-size: 1.75rem;
+  }
+
+  .nav-list{
+    display: none;
+  }
+
+  .header {
+    padding: 50px 5px;
+  }
+
+  .menu {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--color-white-50);
+  }
+
+  .menu::after {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 4px;
+    border-radius: 5px;
+    background: var(--color-white-50);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding: 50px 5px 10px 5px;
+  }
 }
