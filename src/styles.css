@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'assets/variables/variable.css';
+
+body, html {
+  scroll-behavior: smooth;
+  background-color: var(--color-backgroung);
+  font-size: var(--Font-B-Default);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  image-rendering: optimizeSpeed;
+}
+
+
