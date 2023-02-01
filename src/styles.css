@@ -28,6 +28,31 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  color: var(--color-white-100);
+}
+
+.text-green {
+  background: var(--color-green-linear);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(rgb(66, 66, 66));
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--color-white-50);
+}
+
+@media screen and (max-width: 1460px) {
+  .container {
+    max-width: 90%;
+  }
 }
 
 
