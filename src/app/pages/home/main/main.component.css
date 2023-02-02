@@ -113,18 +113,6 @@ button {
 
 .btn-A {
   height: max-content;
-  position: relative;
-}
-
-.btn-A:after {
-  content: "";
-  height: 400px;
-  width: 1px;
-  background-color: #80808033;
-  display: block;
-  position: absolute;
-  top: 30px;
-  right: 0px;
 }
 
 .btn-B {
@@ -132,7 +120,6 @@ button {
   background: var(--color-backgroung);
   color: var(--color-white-75);
   border: 1px solid #80808033;
-  margin-bottom: 300px;
 }
 
 @media screen and (max-width: 1460px) {

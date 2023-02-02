@@ -37,6 +37,25 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
+.titulo {
+  font-family: var(--font-A);
+  font-weight: 700;
+  font-size: 3.25rem;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.titulo::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+  background-color: #80808033;
+  position: absolute;
+  bottom: -20px;
+}
+
 *::-webkit-scrollbar {
   width: 5px;
 }

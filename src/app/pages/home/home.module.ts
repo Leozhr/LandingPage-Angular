@@ -6,9 +6,10 @@ import { MainComponent } from './main/main.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { BannerComponent } from './banner/banner.component';
 import { DesenvolvimentoComponent } from './desenvolvimento/desenvolvimento.component';
+import { ApoiosComponent } from './apoios/apoios.component';
 
 @NgModule({
-  declarations: [HomeComponent, MainComponent, BannerComponent, DesenvolvimentoComponent],
+  declarations: [HomeComponent, MainComponent, BannerComponent, DesenvolvimentoComponent, ApoiosComponent],
   imports: [BrowserModule, CommonModule, AppRoutingModule],
 })
 export class HomeModule {}

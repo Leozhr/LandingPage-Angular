@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Plasm } from './desenvolvimento';
 
 @Component({
   selector: 'app-desenvolvimento',
@@ -7,9 +6,5 @@ import { Plasm } from './desenvolvimento';
   styleUrls: ['./desenvolvimento.component.css'],
 })
 export class DesenvolvimentoComponent implements OnInit {
-  plasm = new Plasm();
-
-  ngOnInit(): void {
-    this.plasm.select('.itens-list li');
-  }
+  ngOnInit(): void {}
 }
