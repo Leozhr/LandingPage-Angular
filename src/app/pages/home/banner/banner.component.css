@@ -1,0 +1,21 @@
+.banner {
+  padding: 20px 0px;
+  background: var(--color-green-linear);
+  overflow-x: hidden;
+  margin-bottom: 150px;
+}
+
+.banner-list {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 5px;
+}
+
+h2 {
+  color: var(--color-backgroung);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-right: 40px;
+}
+
