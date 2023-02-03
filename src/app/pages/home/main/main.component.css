@@ -273,3 +273,13 @@ button {
     padding: 15px 0px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .main-name {
+    font-size: 1rem;
+  }
+
+  .img-A {
+    top: 60px;
+  }
+}
